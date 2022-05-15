@@ -1,0 +1,32 @@
+body{
+    background-color: #fca6c9;
+    color: white;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pageContent{
+   text-align: center;
+    width: 50%;
+    max-width: 750px;
+    margin: 0 auto; 
+}
+
+.firstQuote {
+    font-size: small;
+}
+
+img{
+    width: 150px;
+}
+
+ol{
+    color: black;
+    text-align: left;
+}
+.finalQuote{
+    margin: 20px 70px;
+    font-size: 35px;
+}
+.credentials{
+    color: black;
+}
