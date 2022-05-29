@@ -1,0 +1,46 @@
+#grid{
+    display: grid;
+    grid-template-columns: 48% 40%;
+    gap: 10px;
+    grid-template-rows: 50% 50%;
+    background-color: grey;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#img{
+    grid-column: 1;
+    grid-row: 1/3;
+    background-color: white;
+    padding-left: 10% ;
+}
+
+#Tart{
+    font-weight:600;
+    letter-spacing:15px;
+    padding-left: 14%;
+    padding-top: 15%;
+    font-size: 160px;
+    grid-row: 1;
+    grid-column: 1;
+    z-index: 1;
+
+}
+#Sweet{
+    font-weight: 600;
+    letter-spacing: 15px;
+    padding-top: 15% ;
+    font-size: 160px;
+    grid-row: 1;
+    grid-column: 2;
+    z-index: 1;
+
+}
+
+#cherries{
+    font-weight: bold;
+    text-align: center;
+    font-size: 200px;
+    color: darkred;
+    grid-column: 2;
+    grid-row: 2;
+}

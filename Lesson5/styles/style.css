@@ -1,0 +1,36 @@
+.pyramid{
+    text-align: center;
+}
+.top{
+    background-color: red;
+    margin-inline: 40%;
+    padding: 1.5%;
+}
+.middle{
+    background-color: blue;
+    margin-inline: 37%;
+    padding: 1.5%;
+}
+.bottom{
+    background-color: green;
+    margin-inline: 34%;
+    padding: 1.5%;
+}
+
+.boxOne{
+    background-color: black;
+    margin-left: 34%;
+    margin-right: 100%;
+    padding: 50px;
+    
+}
+.boxTwo{
+    float: left;
+    background-color: black;
+    margin-left: 55%;
+    margin-right: 100%;
+    padding: 50px;
+}
+.holder{
+    
+}
