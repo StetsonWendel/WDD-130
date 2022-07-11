@@ -36,9 +36,16 @@ nav a:hover{
     color: white;
 }
 
+body{
+    background-color: #13262F;
+}
+
 #pageContent {
-    padding-left: 10%;
+    margin-left: 10%;
+    padding: 10px;
+    grid-column: 2/3;
     max-width: 80%;
+    background-color: #fff;
 }
 
 .paragraphText{
@@ -46,18 +53,13 @@ nav a:hover{
     text-align: left;
     padding: 10px;
     background-color:#fff ;
-    /* color: #e0e0e0; */
 }
 
-body{
-    background-color: #13262F;
-}
 
 h1{ 
     padding: 50px;
     text-align: center;
     background-color:#fff ;
-    /* color: #e0e0e0; */
 } 
 
 #firstPic {
@@ -65,4 +67,39 @@ h1{
     padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 10%;    
+}
+
+#secondPic {
+    max-width: 80%;
+    margin-left: 32%;
+}
+
+
+
+
+footer{
+    background-color: #046507;
+    padding: 25px 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer h3{
+    color: white;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    background-color:#13262F;
+    color: #fff;
 }
