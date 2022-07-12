@@ -1,0 +1,134 @@
+header{
+    background-color:#046507;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: grid;
+    grid-template-columns: 150px auto;
+    
+}
+
+.logo{
+    width: 200px;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+#logo_link {
+    max-height: 100px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    padding: 35px;
+}
+
+nav a:hover{
+    background-color:#13262F;
+    color: white;
+}
+
+body{
+    background-color: #13262F;
+}
+
+#pageContent {
+    margin-left: 10%;
+    padding: 10px;
+    grid-column: 2/3;
+    max-width: 80%;
+    background-color: #fff;
+}
+
+.paragraphText{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding: 10px;
+    background-color:#fff ;
+}
+
+
+h1{ 
+    padding: 50px;
+    text-align: center;
+    background-color:#fff ;
+} 
+
+h2 {
+    text-align: center;
+}
+
+#firstPic {
+    max-width: 80%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;    
+}
+
+.home-grid{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 2fr, 2fr, 2fr, 2fr;
+    grid-template-rows: 2fr, 2fr;
+}
+h3 {
+    margin-left: 15%;
+}
+
+.history-card{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.quran-card{
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+
+.card-img {
+    border: 10px #000;
+    width: 50%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+footer{
+    background-color: #046507;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer h3{
+    color: white;
+    margin: 0px;
+}
+
+footer h4 {
+    color: #fff;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    background-color:#13262F;
+    color: #fff;
+}
