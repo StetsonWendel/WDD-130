@@ -1,0 +1,104 @@
+header{
+    background-color:#046507;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: grid;
+    grid-template-columns: 150px auto;
+    
+}
+
+.logo{
+    width: 200px;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+#logo_link {
+    max-height: 100px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    padding: 35px;
+}
+
+nav a:hover{
+    background-color:#13262F;
+    color: white;
+}
+
+
+body{
+    background-color: #13262F;
+}
+
+.pageContent {
+    margin-top: 10px;
+    margin-left: 10%;
+    padding: 10px;
+    grid-column: 2/3;
+    max-width: 80%;
+    background-color: #fff;
+}
+
+#form {
+    margin-top: 50px;
+    margin-left: 30%;
+    margin-bottom: 50px;
+}
+
+li {
+    margin-top: 10px;
+}
+
+
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;       
+}
+.moveDown {
+    margin-top: 3em;
+}
+
+
+.content {
+    margin-left: 40%;
+}
+
+
+footer{
+    background-color: #046507;
+    color: #fff;
+    padding: 25px 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    background-color:#13262F;
+    color: #fff;
+}
